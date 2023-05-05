@@ -1,5 +1,9 @@
 on:
-  - push:
+  push:
+    branches: 
+      - main
+
+  workflow-dispatch:
 
 jobs:
   hello-world-job:
