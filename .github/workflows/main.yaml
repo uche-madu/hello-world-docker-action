@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hello-world-docker-action@v1
+        uses: actions/hello-world-docker-action@v2
         with:
           who-to-greet: 'Uche Madu'
         
